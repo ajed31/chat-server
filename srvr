@@ -1,0 +1,6 @@
+git init
+git add .
+git commit -m "Initial commit chat server"
+git branch -M main
+git remote add origin https://github.com/spiring/chat-server.git
+git push -u origin main
