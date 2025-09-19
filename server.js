@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 
 const wss = new WebSocket.Server({ port: process.env.PORT || 8080 });
 
-const PASSWORD = 'chat123'; // ganti password sesuai keinginan
+const PASSWORD = 'chat123'; // 
 
 let clients = [];
 
